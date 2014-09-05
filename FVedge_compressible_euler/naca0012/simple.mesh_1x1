@@ -1,0 +1,26 @@
+ 3
+ ------------------------------------------------
+                                        coarse naca0012 mesh                    
+ ------------------------------------------------
+ ndimn ntype
+     2     3
+ nelem npoin nboun           time
+    2    4     4      .0000E+00
+ intmat: nodal points corresponding to each element 
+       1      1      2      4       0       0       0       0  0  0  0  1
+       2      1      4      3       0       0       0       0  0  0  0  1
+ coordinates of the points
+  1      0     0
+  2      1     0
+  3      0     1
+  4      1     1
+ initial values for the unknowns and mesh velocity
+       1      1      2      5       0       0       0       0  0  0  0  1
+       2      2      5      6       0       0       0       0  0  0  0  1
+       3      2      3      6       0       0       0       0  0  0  0  1
+       4      3      6      7       0       0       0       0  0  0  0  1
+ boundary conditions
+     1  4  
+     2  4
+     3  4  
+     4  4

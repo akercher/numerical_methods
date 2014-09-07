@@ -1081,7 +1081,7 @@ CONTAINS
     INTEGER :: na,nb,nc,nj,nk,INFO
     DOUBLE PRECISION,INTENT(IN) :: ca     !artifical speed of sound
     DOUBLE PRECISION :: ca2     !artifical speed of sound squared
-    DOUBLE PRECISION,PARAMETER :: c1 = 4.0d0
+    DOUBLE PRECISION,PARAMETER :: c1 = 1.0d0
     DOUBLE PRECISION,PARAMETER :: tol = 1E-16
     DOUBLE PRECISION :: dx,dy
     DOUBLE PRECISION :: Nax,Nay,Nbx,Nby,Ncx,Ncy

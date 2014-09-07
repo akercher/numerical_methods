@@ -12,7 +12,7 @@ USE solveOps
 
   IMPLICIT NONE 
 
-  INTEGER,PARAMETER :: test = 2,mesh_type = 3,kf = 30000
+  INTEGER,PARAMETER :: test = 2,mesh_type = 3,kf = 50000
   INTEGER :: i,j,k                  !Used for Indexing
   INTEGER :: cnt
   INTEGER :: ndim               !number of spatial dimentions

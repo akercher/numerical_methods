@@ -22,7 +22,7 @@ PROGRAM Euler2D_main
 
   IMPLICIT NONE 
 
-  INTEGER,PARAMETER :: mesh_type = 8
+  INTEGER,PARAMETER :: mesh_type = 9
   INTEGER :: i,j,k                  !Used for Indexing
   INTEGER :: ndim               !number of spatial dimentions
   CHARACTER (LEN=30):: zfemVfld,zfemSfld              ! Output Files: zfem Format
@@ -33,7 +33,7 @@ PROGRAM Euler2D_main
 
   !define values
   nunks     = 4
-  max_steps = 1000
+  max_steps = 20000
   gamma     = 1.40d0
   pgmin     = 0.0d0
   Cr        = 0.950d0
@@ -44,8 +44,8 @@ PROGRAM Euler2D_main
   limiter_type = 'none'
   limiter_type = 'vanalbada'
 !!$  flux_type    = 'roe'
-!!$  flux_type    = 'rhll'
-  flux_type    = 'hllc'
+  flux_type    = 'rhll'
+!!$  flux_type    = 'hllc'
 
   if(mesh_type == 8)then
      prob_type    = 'shock_diff'

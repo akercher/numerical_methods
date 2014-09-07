@@ -112,3 +112,7 @@ err/
 # octave
 octave-core
 octave-workspace
+
+# object and mod files 
+*.o
+*.mod
